@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>From Dirt to Dyson Spheres | Live Demo</title>
+
+    <!-- This line connects your CSS file -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <!-- ===== ARTICLE SECTION ===== -->
+      <div class="article-content">
+        <h1>From Dirt to Dyson Spheres: Humanity's Long Road to the Stars</h1>
+        <p>
+          We began as humble earthlings – just one species on a dust-covered
+          planet – but we've always gazed skyward. Our blue marble gave us life
+          and shelter, yet in cosmic terms, it's a ticking clock... In short,
+          the Earth of today won't last forever.
+        </p>
+
+        <h2>Climbing the Energy Ladder – The Kardashev Scale</h2>
+        <p>
+          Cosmically speaking, one way to measure a civilization's reach is by
+          how much energy it commands. The Kardashev scale categorizes
+          civilizations by energy usage. Below is a live demo that lets you
+          explore this concept.
+        </p>
+      </div>
+
+      <!-- ===== LIVE DEMO SECTION ===== -->
+      <div class="demo-container">
+        <h2>Kardashev Scale Calculator</h2>
+        <p>Enter an energy usage in watts to find its level.</p>
+
+        <input
+          type="number"
+          id="wattsInput"
+          placeholder="e.g., 1.74e13 for current humanity"
+        />
+        <br />
+        <button id="calculateBtn">Calculate</button>
+
+        <div class="result" id="resultText">
+          <!-- The result will appear here -->
+        </div>
+      </div>
+    </div>
+
+    <!-- This line connects your JavaScript file. It's best placed at the end. -->
+    <script src="script.js"></script>
+  </body>
+</html>
